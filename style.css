@@ -25,7 +25,7 @@ h3 {
   padding: 25px 0px;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: flex-end;
 }
 
 /* LOGO, NAV LINKS AND NAV BUTTON POSITIONG */

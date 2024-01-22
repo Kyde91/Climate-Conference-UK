@@ -188,11 +188,16 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   body,
   #navbarContainer,
   #headerContainer {
     padding: 10px;
+  }
+
+  .btnNxt,
+  .btnTop {
+    display: none;
   }
 
   .logo,
@@ -202,6 +207,18 @@
 
   button.navBtn {
     font-size: 0.7rem;
+  }
+
+  .bottomContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 10px;
+    color: rgba(51, 153, 153, 255);
+  }
+
+  .mediaBtn {
+    color: rgba(51, 153, 153, 255);
   }
 }
 
