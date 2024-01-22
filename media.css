@@ -217,7 +217,8 @@
     color: rgba(51, 153, 153, 255);
   }
 
-  .mediaBtn {
+  .mediaBtn,
+  .navBtn {
     color: rgba(51, 153, 153, 255);
   }
 }
