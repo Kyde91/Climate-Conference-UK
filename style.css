@@ -1,0 +1,300 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  /* overflow-x: hidden; */
+  height: 100%;
+  padding: 25px;
+}
+
+h1,
+h2,
+h3 {
+  color: rgba(51, 153, 153, 255);
+}
+
+/* NAVBAR AND DROP DOWN MENU STYLING */
+
+#navbarContainer,
+#headerContainer {
+  overflow: hidden;
+  background-color: #ffffff;
+  padding: 25px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+/* LOGO, NAV LINKS AND NAV BUTTON POSITIONG */
+
+.logo {
+  color: black;
+}
+
+.linkContainer,
+.navLink {
+  flex: 1;
+  padding: 5px;
+  margin: 0px 10px;
+  text-align: right;
+  text-decoration: none;
+}
+
+button {
+  background-color: white;
+  border-bottom: solid 1px black;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 3px 7px;
+  padding: 3px 15px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.dropContainer {
+  display: none;
+}
+
+.dropBtn {
+  display: none;
+}
+
+/* HEADER STYLING */
+
+.spContainer > p {
+  text-align: right;
+  font-size: 14px;
+  margin: 0;
+  color: red;
+}
+
+p > span {
+  font-size: 22px;
+  color: black;
+}
+
+/* LINEBREAK STYLING FOT SEPARATION OF SECTIONS */
+#lineBreak {
+  border-bottom: solid 2px black;
+  width: 99%;
+  margin: auto;
+}
+#lineBreak1 {
+  border-bottom: solid 2px black;
+  width: 100%;
+  margin: auto;
+}
+
+/* SIDEBAR BUTTON COLLUMN */
+#bodyContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  margin-right: auto;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.btnColumn {
+  margin-right: 25px;
+  margin-bottom: 7px;
+}
+
+.btnColumn > button {
+  cursor: pointer;
+  width: 100px;
+  height: 70px;
+  display: block;
+  border: solid 2px black;
+  font-size: 1.9rem;
+  color: black;
+}
+
+.btnColumn > button:hover {
+  background-color: rgba(51, 153, 153, 255);
+}
+
+/* HERO CONATINER STYLING */
+.mainImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.textContainer {
+  width: 70%;
+  align-items: stretch;
+}
+
+.heroText {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.heroTitle > h2,
+.heroImage > h2 {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.heroImage > h2 {
+  margin-bottom: 15px;
+}
+
+.heroImage > p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 10px;
+  margin: 10px;
+}
+
+.imgContainer {
+  padding: 5px;
+  min-width: auto;
+  overflow: hidden;
+}
+
+.aboutList {
+  margin: 30px 10px 10px 10px;
+  line-height: 2.4;
+  font-weight: 700;
+}
+
+li > span {
+  color: rgba(51, 153, 153, 255);
+  font-size: 20px;
+}
+
+li {
+  list-style: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* UPDATES CONTAINER */
+.updatesContainer {
+  padding: 10px 10px 10px 0;
+  margin: 10px 10px 10px 0;
+  width: 100%;
+}
+
+.updateText {
+  display: inline;
+  width: 50%;
+}
+
+.pastUpdates > h3 {
+  margin-bottom: 20px;
+}
+
+.updateSpan {
+  margin: 10px;
+}
+
+.imgUpdates {
+  vertical-align: top;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+}
+
+.imgCaption {
+  display: block;
+  text-align: left;
+}
+
+/* DISCUSSION */
+.imgDiss {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+.img1 {
+  max-width: 100%;
+  height: auto;
+}
+
+.dissContainer {
+  width: 140%;
+  overflow: hidden;
+}
+
+.dissContainer > h3 {
+  margin: 25px 0;
+}
+
+.dissCaption {
+  display: block;
+  text-align: left;
+  width: 70%;
+  font-size: 16px;
+  padding: 10px 10px 20px 0;
+}
+
+/* BACK TO TOP AND NEXT BUTTONS */
+
+.btnTopContainer {
+  margin: 10px 0;
+  padding: 10px 0;
+}
+.btnNxt {
+  background-color: white;
+  border: solid 2px black;
+  font-size: 18px;
+  font-weight: 700;
+  width: 200px;
+  height: 55px;
+  margin: 0;
+  margin-left: 20px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.btnNxt > span {
+  color: red;
+  font-weight: 400;
+}
+
+.btnTop {
+  background-color: white;
+  border: solid 2px black;
+  font-size: 24px;
+  width: 500px;
+  height: 55px;
+  text-decoration: none;
+  margin: auto;
+}
+
+/* FOOTER */
+
+#footerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  vertical-align: middle;
+}
+
+.ftContainer > p {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}

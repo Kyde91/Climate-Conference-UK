@@ -1,0 +1,329 @@
+/* RESPONSIVE ELEMENTS */
+.mediaContainer,
+.timelineBtn,
+.dissResponsive,
+.emailFt,
+.bottomContainer,
+.mediaBtn,
+.timelineContainer {
+  display: none;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1250px) {
+  .btnContainer,
+  .linkContainer,
+  .navLink {
+    display: none;
+  }
+
+  .navLink,
+  .navBtn {
+    font-size: 14px;
+  }
+
+  .Logo {
+    font-size: 18px;
+  }
+
+  .dropBtn {
+    color: black;
+    font-size: 16px;
+    border: none;
+    text-decoration: none;
+    display: initial;
+  }
+
+  .dropContainer {
+    position: relative;
+    display: inline-block;
+  }
+
+  .heroTitle > h2 {
+    font-size: 1.2rem;
+  }
+
+  .btnNxt {
+    width: 12em;
+    height: 4em;
+  }
+
+  .btnTop {
+    width: 20em;
+    height: 3em;
+  }
+}
+
+@media (max-width: 1000px) {
+  .btnMedia {
+    display: none;
+  }
+
+  .headLogo > h1 {
+    font-size: 26px;
+  }
+
+  .spContainer > p {
+    font-size: 12px;
+  }
+
+  p > span {
+    font-size: 18px;
+  }
+
+  .heroText {
+    font-size: 14px;
+  }
+
+  .heroTitle > h2,
+  .heroImage > h2 {
+    font-size: 1.2rem;
+  }
+
+  .btnNxt {
+    width: 11em;
+    height: 4em;
+  }
+
+  .btnTop {
+    width: 18em;
+    height: 3em;
+  }
+}
+
+@media (max-width: 915px) {
+  #navbarContainer,
+  #headerContainer {
+    padding: 15px 30px;
+  }
+
+  .heroImage {
+    text-align: center;
+  }
+
+  .heroImage > img {
+    padding-right: 10px;
+  }
+
+  .navLink,
+  .navBtn {
+    font-size: 14px;
+  }
+
+  .logo {
+    font-size: 1.3rem;
+  }
+
+  .headLogo > h1 {
+    font-size: 1.2rem;
+  }
+
+  .heroImage > h2,
+  .heroTitle > h2 {
+    font-size: 1.2rem;
+  }
+
+  .textContainer {
+    display: none;
+  }
+
+  .mediaContainer {
+    padding: 10px;
+    text-align: center;
+    display: initial;
+  }
+
+  .mediaContainer > h2 {
+    padding: 10px;
+    font-size: 1.6rem;
+  }
+
+  .mediaContainer > p {
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+  }
+  .mediaContainer > a {
+    padding: 10px;
+    margin: auto;
+  }
+
+  .imgCaption {
+    font-size: 0.8rem;
+  }
+
+  .imgHide,
+  .ftContainer {
+    display: none;
+  }
+}
+
+@media (max-width: 810px) {
+  .btnNxt {
+    width: 10em;
+    height: 4em;
+  }
+
+  .btnTop {
+    width: 16em;
+    height: 3em;
+  }
+}
+
+@media (max-width: 735px) {
+  .logo,
+  p > span,
+  .headLogo > h1 {
+    font-size: 1rem;
+  }
+
+  .spContainer > p {
+    font-size: 0.7rem;
+  }
+
+  .dissRemove,
+  .btnMedia1 {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  body,
+  #navbarContainer,
+  #headerContainer {
+    padding: 10px;
+  }
+
+  .logo,
+  .dropBtn {
+    font-size: 0.9rem;
+  }
+
+  button.navBtn {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .heroImage > p {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+
+  .pastUpdates > h3 {
+    text-align: center;
+  }
+
+  figure.imgUpdates,
+  i.imgUpdates,
+  .imgMedia,
+  .imgDiss,
+  .btnTopContainer,
+  .emailContainer {
+    display: none;
+  }
+
+  .timelineContainer::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3px;
+    height: 50%;
+    background-color: rgba(51, 153, 153, 255);
+  }
+
+  .timelineContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    text-align: center;
+  }
+
+  .single {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2em;
+    margin-top: 1em;
+  }
+
+  .card {
+    flex-basis: 50%;
+    color: white;
+    border-radius: 0.5rem;
+    position: relative;
+  }
+
+  .date {
+    flex-basis: 50%;
+  }
+
+  .card::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translate(100%, -50%);
+    width: 15px;
+    height: 2px;
+    background-color: rgba(51, 153, 153, 255);
+    right: 0;
+  }
+
+  .date {
+    color: black;
+    font-size: 1rem;
+  }
+
+  .right .card,
+  .right .date {
+    text-align: right;
+  }
+
+  .right .card::before {
+    transform: translate(-100%, 50%);
+    left: 0;
+  }
+
+  .card > img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .dissContainer {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .dissResponsive {
+    display: initial;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mediaBtn {
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .bottomContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .emailFt {
+    display: initial;
+    width: 20%;
+  }
+
+  .logo {
+    font-size: 0.8rem;
+  }
+}
