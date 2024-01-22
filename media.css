@@ -309,6 +309,7 @@
     margin: auto;
     margin-top: 10px;
     text-align: center;
+    display: initial;
   }
 
   .bottomContainer {
